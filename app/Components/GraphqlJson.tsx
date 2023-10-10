@@ -22,7 +22,7 @@ const GraphqlJson = async ($requestQuery: any) => {
         next: {revalidate: 10}
     }
     const responseData = await fetch(process.env.GRAPHQL_API_URL as string, requestJson).then((res) => res.json());
-    return responseData;
+    return responseData.data;
 }
 
 export default GraphqlJson;

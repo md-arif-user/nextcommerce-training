@@ -1,4 +1,5 @@
-import Menu from '@/app/Components/Base/Menu'
+import Menu from '@/app/Components/Base/Menu.jsx'
+// import Menu from '@/app/Components/Base/Menu'
 
 export default function Home() {
   return (
